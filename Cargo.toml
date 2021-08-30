@@ -1,0 +1,16 @@
+[package]
+name = "bench-hashmap"
+version = "0.1.0"
+authors = ["fys <1113014250@qq.com>"]
+edition = "2018"
+
+[dependencies]
+
+[dev-dependencies]
+criterion = "0.3"
+dashmap = "4.0.2"
+parking_lot = "0.1.0"
+
+[[bench]]
+name = "map_benchmark"
+harness = false
